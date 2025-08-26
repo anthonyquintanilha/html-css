@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+@font-face {
+    font-family: ;
+    src: url(../fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+} 
+:root{
+    --fonte-android: 'Android', cursive;
+
+
+
+
+}
+ 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Michroma", sans-serif;
+    background-color: #588F42;
+    color: white;
+}
+
+header{
+    background-color: #86e96e;
+    padding: 5px 15px 15px 15px;
+    height: 100%;
+    background-image: linear-gradient(#0ff55c,rgb(41, 38, 38));
+}
+
+.menu{
+    margin: 20px 15px 15px 10px;
+    font-size: 13px;
+    color: rgb(255, 255, 255);   
+    height: 30px;  
+    text-decoration: none;
+    
+    
+}
+
+a:hover{
+    background-color: #1e7a3d;
+    padding: 10px 6px 15px 6px;
+    border-radius: 3px;
+    
+}
+
+.h1{
+    text-align: center;
+}
+#h1{
+    font-family: var(--fonte-android)
+}
